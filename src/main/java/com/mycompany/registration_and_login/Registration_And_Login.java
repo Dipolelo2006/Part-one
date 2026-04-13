@@ -7,7 +7,8 @@ package com.mycompany.registration_and_login;
 import java.util.Scanner;
 
 /**
- *
+ * Registration and Login system
+ * This class handles user registration with validation and functionality
  * @author Student
  */
 public class Registration_And_Login {
