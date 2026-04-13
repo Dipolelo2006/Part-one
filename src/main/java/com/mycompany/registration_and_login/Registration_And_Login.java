@@ -82,6 +82,8 @@ public class Registration_And_Login {
     //========================================================
     // returnLoginStatus()
     //========================================================
+    // Handles and returns appropriate welcome or error message
+    //========================================================
     
     public String returnLoginStatus(String inputUsername, String inputPassword, String firstName, String lastName){
         if(inputUsername.equals(username) && inputPassword.equals(password)){
