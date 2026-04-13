@@ -18,7 +18,7 @@ public class Registration_And_LoginTest {
     @Test
     void testValidUsername() {
         Registration_And_Login user = new Registration_And_Login();
-        user.username = "user_1";
+        user.username = "De_e";
         assertTrue(user.checkUserName(), "Valid username with underscore should pass");
     }
 
