@@ -12,9 +12,9 @@ import java.util.Scanner;
  * @author Student
  */
 public class Registration_And_Login {
-    private String username;
-    private String password;
-    private String phoneNumber;
+    public String username;
+    public String password;
+    public String phoneNumber;
     
     //====================================
     // checkUserName()
