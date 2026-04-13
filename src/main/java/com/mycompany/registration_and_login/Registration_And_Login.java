@@ -19,14 +19,14 @@ public class Registration_And_Login {
     //====================================
     // checkUserName()
     //====================================
-    
+    //Validation method
     public boolean checkUserName(){
         return username.contains("_") && username.length()<=5;
     }
     //====================================
     // checkPasswordComplexity()
     //====================================
-    
+    //Checks if password has an uppercase, number, special character and at least 8 chars 
     public boolean checkPasswordComplexity(){
         boolean hasUpperCase = false;
         boolean hasNumber = false;
@@ -49,7 +49,7 @@ public class Registration_And_Login {
     //=======================================================
     // checkCellPhoneNumber()
     //=======================================================
-    
+    //Checks SA's phone numberformat (+27 followed by 9 digits)
     public boolean checkCellPhoneNumber(){
         return phoneNumber.startsWith("+27") && phoneNumber.length() == 12;
     }
