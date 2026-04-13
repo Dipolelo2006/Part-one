@@ -11,9 +11,9 @@ import java.util.Scanner;
  * @author Student
  */
 public class Registration_And_Login {
-     String username;
-     String password;
-     String phoneNumber;
+    private String username;
+    private String password;
+    private String phoneNumber;
     
     //====================================
     // checkUserName()
